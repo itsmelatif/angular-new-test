@@ -1,0 +1,48 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand is-justify-content-flex-start" [ngClass]="{'is-active-sidebar': !isHideSidebar}">
+    <a class="navbar-item" (click)="toggleSidebar()">
+      <fa-icon [icon]="iconHeader"></fa-icon>
+    </a>
+  </div>
+
+  <div class="navbar-menu is-justify-content-flex-end">
+    <div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link" (click)="toggleSidebar()">
+        <fa-icon [icon]="iconUser"></fa-icon> &nbsp;&nbsp;Jhone Dea
+      </a>
+
+      <div class="navbar-dropdown">
+        <a class="navbar-item">
+          My Profiles
+        </a>
+        <a class="navbar-item">
+          Settings
+        </a>
+        <a class="navbar-item">
+          Messages
+        </a>
+        <hr class="navbar-divider">
+        <a class="navbar-item">
+          Logout
+        </a>
+      </div>
+    </div>
+
+    <div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link">
+        <fa-icon [icon]="iconGlobe"></fa-icon> &nbsp;&nbsp; {{ currentLang | uppercase }}
+      </a>
+
+      <div class="navbar-dropdown">
+        <a
+          class="navbar-item"
+          [ngClass]="{'is-active': item.value === currentLang}"
+          (click)="changeLang(item.value)"
+          *ngFor="let item of listLang"
+        >
+          {{ item.label | titlecase }}
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,14 @@
+{
+  "MENU": {
+    "general": "Umum",
+    "dashboard": "Dasbor",
+    "administration": "Administrasi",
+    "patient": "Pasien",
+    "visit": "Kunjungan",
+    "medical-record": "Rekam Medis",
+    "my-profile": "Profil",
+    "settings": "Pengaturan",
+    "messages": "Pesan",
+    "logout": "Keluar"
+  }
+}

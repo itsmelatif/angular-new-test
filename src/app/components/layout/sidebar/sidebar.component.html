@@ -1,0 +1,30 @@
+<aside class="menu" [ngClass]="{'is-actived': !isHide}">
+  <div class="columns bg-color">
+    <div class="column has-text-centered">
+      <h3>
+        <ng-container *ngIf="isHide else titleWide">
+          ST
+        </ng-container>
+        <ng-template #titleWide>
+          SISTEM TEST
+        </ng-template>
+      </h3>
+    </div>
+  </div>
+  <ng-container  *ngFor="let list of listMenu">
+    <p class="menu-label" *ngIf="!isHide">
+      {{ "MENU."+list.headLabel | translate }}
+    </p>
+    <ul class="menu-list">
+      <li *ngFor="let item of list.items">
+        <a>
+          <fa-icon [icon]="item.icon"></fa-icon>
+          <ng-container *ngIf="!isHide">
+            {{ "MENU."+item.label | translate }}
+          </ng-container>
+
+        </a>
+      </li>
+    </ul>
+  </ng-container>
+</aside>

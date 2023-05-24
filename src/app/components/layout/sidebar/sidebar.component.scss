@@ -1,0 +1,34 @@
+.menu{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  height: 100vh;
+  padding: 0;
+  box-shadow: none;
+  background-color: #001529;
+  color: #fff;
+
+  .menu-list a {
+    color: #fff;
+  }
+
+  &.is-actived{
+    width: 14rem!important;
+  }
+
+  a {
+    margin: 5px;
+  }
+  a:hover {
+    background-color: #1677ff!important;
+    margin: 5px;
+  }
+}
+
+.bg-color {
+  background-color: red;
+  width: 105%;
+}

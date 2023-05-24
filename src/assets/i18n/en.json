@@ -1,0 +1,14 @@
+{
+  "MENU": {
+    "general": "General",
+    "dashboard": "Dashboard",
+    "administration": "Adiministration",
+    "patient": "Patient",
+    "visit": "Visit",
+    "medical-record": "Medical Record",
+    "my-profile": "My Profile",
+    "settings": "Settings",
+    "messages": "Messages",
+    "logout": "Logout"
+  }
+}

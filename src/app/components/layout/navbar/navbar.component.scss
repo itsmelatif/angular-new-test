@@ -1,0 +1,15 @@
+.navbar-brand {
+  align-items: stretch;
+  display: flex;
+  flex-shrink: 0;
+  min-height: 3.25rem;
+  padding-left: 3rem;
+
+  &.is-active-sidebar {
+    padding-left: 14.5rem;
+  }
+}
+
+.navbar-menu {
+  padding-right: 3rem;
+}
