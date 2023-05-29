@@ -1,2 +1,12 @@
 <app-navbar></app-navbar>
 <app-sidebar></app-sidebar>
+<section id="content" class="is-fullheight" [ngClass]="{'is-active': !isHideSidebar}">
+  <div class="default m-4">
+      <app-breadcrumb></app-breadcrumb>
+
+      <div class="df-content">
+        <ng-content></ng-content>
+      </div>
+    </div>
+</section>
+<app-footer></app-footer>

@@ -1,0 +1,16 @@
+<div class="main-wrapper">
+  <div class="responsive-table">
+    <table class='table is-stripped is-bordered' style="width: 2000px;">
+      <thead class="has-background-grey-lighter pt-3">
+        <tr>
+          <ng-content select="#thead"></ng-content>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-content select="#tbody"></ng-content>
+      </tbody>
+    </table>
+    <!-- <div style="width:2000px; height: 50px; background-color: red; position: relative;"></div> -->
+  </div>
+</div>
+<app-table-pagination [page]="page"></app-table-pagination>

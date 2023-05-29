@@ -10,5 +10,34 @@
     "settings": "Settings",
     "messages": "Messages",
     "logout": "Logout"
+  },
+  "TITLE": {
+    "email": "Email",
+    "password": "Password",
+    "remember_me": "Remember me"
+  },
+  "BUTTON": {
+    "login": "Login",
+    "action": "Action"
+  },
+  "LOGIN_PAGE": {
+    "welcome_title": "Welcome to the medical records app, the leading solution for modern clinics and healthcare facilities",
+    "welcome_description": "We are proud to provide an innovative and efficient platform to manage your patient's medical data, improve patient safety, and improve quality of care.",
+    "title": "welcome",
+    "sign_in": "Sign in to your account"
+  },
+  "COLUMN": {
+    "no" : "No",
+    "patient_id": "Patient Id",
+    "full_name": "Full Name",
+    "age": "Age",
+    "phone_number": "Phone Number",
+    "email": "Email",
+    "subdistrict": "Subdistrict",
+    "city": "City",
+    "province": "Province",
+    "address": "Address",
+    "guardian": "Guardian",
+    "phone_number_guardian": "Phone Number Guardian"
   }
 }

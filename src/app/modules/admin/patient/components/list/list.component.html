@@ -1,0 +1,44 @@
+<app-patient-header></app-patient-header>
+<app-table [page]="10">
+  <ng-container id="thead">
+    <th *ngFor="let item of columns">
+      {{ "COLUMN."+item | translate }}
+    </th>
+    <th>{{ "BUTTON.action" | translate }}</th>
+  </ng-container>
+  <ng-container id="tbody">
+    <tr>
+      <td>vilod565</td>
+      <td>vilod565@gmail.com</td>
+      <td>Male</td>
+      <td>Kolkata, West Bengal</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+    </tr>
+    <tr>
+      <td>vilod565</td>
+      <td>vilod565@gmail.com</td>
+      <td>Male</td>
+      <td>Kolkata, West Bengal</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+    </tr>
+    <tr>
+      <td>vilod565</td>
+      <td>vilod565@gmail.com</td>
+      <td>Male</td>
+      <td>Kolkata, West Bengal</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+      <td>9856435632</td>
+    </tr>
+  </ng-container>
+</app-table>

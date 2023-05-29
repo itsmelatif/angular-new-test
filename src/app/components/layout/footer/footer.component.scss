@@ -1,0 +1,10 @@
+footer {
+  height: 50px!important;
+  padding: 1rem;
+  text-align: center;
+  padding-left: 3.4rem;
+
+  &.is-wide {
+    padding-left: 14.5rem;
+  }
+}

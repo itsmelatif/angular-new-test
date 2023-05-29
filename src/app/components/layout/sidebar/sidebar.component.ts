@@ -5,11 +5,12 @@ import { IMenu } from 'src/app/interfaces/menu-interface';
 import { TranslateModule } from '@ngx-translate/core';
 import { ComponentsService } from '../../services/components.service';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-sidebar',
   standalone: true,
-  imports: [CommonModule, TranslateModule, FontAwesomeModule],
+  imports: [CommonModule, TranslateModule, FontAwesomeModule, RouterModule, RouterOutlet],
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.scss']
 })

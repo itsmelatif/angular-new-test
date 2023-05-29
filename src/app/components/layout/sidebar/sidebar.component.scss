@@ -8,8 +8,8 @@
   height: 100vh;
   padding: 0;
   box-shadow: none;
-  background-color: #001529;
   color: #fff;
+  padding-top: 10px;
 
   .menu-list a {
     color: #fff;
@@ -23,12 +23,11 @@
     margin: 5px;
   }
   a:hover {
-    background-color: #1677ff!important;
     margin: 5px;
   }
 }
 
 .bg-color {
-  background-color: red;
-  width: 105%;
+  text-align: center;
+  font-weight: bolder;
 }

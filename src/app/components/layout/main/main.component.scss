@@ -1,0 +1,22 @@
+#content {
+  align-items: stretch;
+  display: flex;
+  flex-shrink: 0;
+  padding-left: 3.4rem;
+  min-height: 87vh;
+  width: 100%;
+  background-color: rgba($color: #dedede, $alpha: 0.2);
+
+  &.is-active {
+    padding-left: 14rem;
+  }
+
+  .default {
+    width: 100%;
+  }
+
+  .df-content {
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+  }
+}

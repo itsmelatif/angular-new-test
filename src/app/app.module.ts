@@ -9,7 +9,7 @@ import { NgxTranslateModule } from './translate/translate.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
